@@ -30,7 +30,7 @@ const AboutUs = () => {
           <div className="flex flex-col gap-4 col-span-1  ">
             <h2 className=" text-2xl  lg:text-3xl font-semibold">Donate Online</h2>
             <p className="text-lg lg:text-xl ">
-             Click the button below, and add a comment to your donation that contains "Pantanal Partnership"
+             Click the button below, and add a comment to your donation that contains &quot;Pantanal Partnership&quot;
             </p>
             <div className = "py-4">
           <Link href = "https://leadersandbest.umich.edu/find/#!/give/basket/fund/320061?f=138198395" className = "text-white bg-blue-500 p-3 rounded-lg hover:opacity-80">Donate Online</Link>

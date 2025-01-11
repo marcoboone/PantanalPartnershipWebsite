@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -135,13 +134,13 @@ const AboutUs = () => {
             members in the Pantanal to determine needs, and designing
             sustainable technology that fits within the diverse culture of the
             area. Each year members research potential projects within the
-            organization's scope, choose a focus, then design and prototype
+            organization&apos;s scope, choose a focus, then design and prototype
             their project.
           </p>
           <p className="text-lg lg:text-xl">
             Following the Winter term at the University of Michigan, students
             travel to Brazil and implement their project over the span of one
-            month, during which time they connect with Brazil's rich history and
+            month, during which time they connect with Brazil&apos;s rich history and
             the Portuguese language.
           </p>
         </div>
