@@ -71,17 +71,17 @@ const Navbar = () => {
       <div
         className={
           (nav ? "shadow" : "") +
-          " flex items-center justify-between fixed z-50 w-full squeezetainer bg-white top-0 h-nav text-black"
+          " flex items-center justify-between fixed z-50 w-full squeezetainer py-6 bg-white top-0 h-nav text-black"
         }
       >
         <Link onClick={resetNav} href="/">
           Pantanal Partnership
         </Link>
         <div id="navbar-links" className={"max-md:hidden md:block"}>
-          <NavItem href={"/"}>about us</NavItem>
-          <NavItem href={"/"}>projects</NavItem>
-          <NavItem href={"/"}>donate</NavItem>
-          <NavItem href={"/"}>contact</NavItem>
+          <NavItem href={"/aboutUs"}>about us</NavItem>
+          <NavItem href={"/projects"}>projects</NavItem>
+          <NavItem href={"/donate"}>donate</NavItem>
+          <NavItem href={"/contact"}>contact</NavItem>
         </div>
 
         {nav ? (
@@ -99,19 +99,19 @@ const Navbar = () => {
           }
         >
           <div className="flex flex-col pt-[15vh] px-6 gap-8 text-lg text-black">
-            <NavItem clickFunction={resetNav} href={"/"}>
+            <NavItem clickFunction={resetNav} href={"/home"}>
               home
             </NavItem>
-            <NavItem clickFunction={resetNav} href={"/"}>
+            <NavItem clickFunction={resetNav} href={"/aboutUs"}>
               about us
             </NavItem>
-            <NavItem clickFunction={resetNav} href={"/"}>
+            <NavItem clickFunction={resetNav} href={"/projects"}>
               projects
             </NavItem>
-            <NavItem clickFunction={resetNav} href={"/"}>
+            <NavItem clickFunction={resetNav} href={"/donate"}>
               donate
             </NavItem>
-            <NavItem clickFunction={resetNav} href={"/"}>
+            <NavItem clickFunction={resetNav} href={"/contact"}>
               contact
             </NavItem>
           </div>

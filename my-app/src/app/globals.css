@@ -14,15 +14,9 @@
 /* Container */
 .squeezetainer {
   padding-inline: 5vw;
-  padding-block: theme("spacing.4")
+  
 }
 
-
-@media (min-width: theme("screens.md")) {
-  .squeezetainer {
-    padding-block: theme("spacing.8")
-  }
-}
 
 @media (min-width: theme("screens.lg")) {
   .squeezetainer {
