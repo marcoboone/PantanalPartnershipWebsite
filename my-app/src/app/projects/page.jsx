@@ -48,7 +48,7 @@ const Projects = () => {
 
       <ProjectSectionB
         title="Solar System"
-        description="We installed four large solar panels on the roof of a teacher's home, along with two switches, two light sockets, and an outlet in Perigara, MT. School classes were being held for the children in the community here while the school was reopening."
+        description="We installed four large solar panels on the roof of a teacher&apos;s home, along with two switches, two light sockets, and an outlet in Perigara, MT. School classes were being held for the children in the community here while the school was reopening."
         team="​SUBTEAM: SOLAR"
         date="​2016-2017 "
         image="/Images/aboutUsImage.JPG"

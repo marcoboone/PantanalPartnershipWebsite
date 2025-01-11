@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { DisplayCard } from "@/app/components/DisplayCard";
 
 export const News = () => {
@@ -13,7 +12,11 @@ export const News = () => {
             <h2 className=" text-3xl  lg:text-4xl font-semibold">News</h2>
           </div>
         </div>
-       <DisplayCard title = "The Pantanal Partnership" description="...promoting music education and low energy refridgeration in Brazil" imageUrl = "/Images/aboutUsImage.JPG"/>
+        <DisplayCard
+          title="The Pantanal Partnership"
+          description="...promoting music education and low energy refridgeration in Brazil"
+          imageUrl="/Images/aboutUsImage.JPG"
+        />
       </div>
     </div>
   );
