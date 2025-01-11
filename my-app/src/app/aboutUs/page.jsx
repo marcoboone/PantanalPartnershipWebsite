@@ -54,7 +54,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-auto gap-6">
           <div className="aspect-square relative shadow-md col-span-1 row-span-1">
             <Image
-              src="/Images/president.JPG"
+              src="/Images/president.jpg"
               layout="fill"
               objectFit="cover"
               alt="Image"
@@ -69,7 +69,7 @@ const AboutUs = () => {
           </div>
           <div className="aspect-square relative shadow-md col-span-1 row-span-1">
             <Image
-              src="/Images/vicePresident.JPG"
+              src="/Images/vicePresident.jpg"
               layout="fill"
               objectFit="cover"
               alt="Image"
@@ -84,7 +84,7 @@ const AboutUs = () => {
           </div>
           <div className="aspect-square relative shadow-md col-span-1 row-span-1">
             <Image
-              src="/Images/financeChair.JPG"
+              src="/Images/financeChair.jpg"
               layout="fill"
               objectFit="cover"
               alt="Image"
@@ -99,7 +99,7 @@ const AboutUs = () => {
           </div>
           <div className="aspect-square relative shadow-md col-span-1 row-span-1">
             <Image
-              src="/Images/marketingChair.JPG"
+              src="/Images/marketingChair.jpg"
               layout="fill"
               objectFit="cover"
               alt="Image"
