@@ -99,7 +99,7 @@ const Navbar = () => {
           }
         >
           <div className="flex flex-col pt-[15vh] px-6 gap-8 text-lg text-black">
-            <NavItem clickFunction={resetNav} href={"/home"}>
+            <NavItem clickFunction={resetNav} href={"/"}>
               home
             </NavItem>
             <NavItem clickFunction={resetNav} href={"/aboutUs"}>
