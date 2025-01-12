@@ -9,7 +9,7 @@ return (
     <>
         <div className="relative w-full h-[100vh]">
             <Image
-                src="/Images/heroImage.JPG"
+                src="/Images/contact.JPG"
                 layout="fill"
                 objectFit="cover"
                 alt="Image"
