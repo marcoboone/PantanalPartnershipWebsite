@@ -15,7 +15,7 @@ export const News = () => {
         <DisplayCard
           title="The Pantanal Partnership"
           description="...promoting music education and low energy refridgeration in Brazil"
-          imageUrl="/Images/aboutUsImage.JPG"
+          imageUrl="/Images/news.JPG"
         />
       </div>
     </div>

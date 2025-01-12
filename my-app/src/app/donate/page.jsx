@@ -6,7 +6,7 @@ const AboutUs = () => {
     <>
       <div className="relative w-full h-[40vh] mt-[8vh]">
         <Image
-          src="/Images/heroImage.JPG"
+          src="/Images/donate.JPG"
           layout="fill"
           objectFit="cover"
           alt="Image"

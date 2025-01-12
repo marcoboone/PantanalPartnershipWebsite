@@ -11,9 +11,10 @@ const footer = () => {
         <div className="flex flex-col gap-2 md:col-span-2 basis-2/5">
           <h2 className="font-bold">Pantanal Partnership</h2>
           <p className="max-w-[400px]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed earum
-            magnam itaque doloremque hic dolore minus ex ipsa ipsum error ut,
-            minima quos tempore sint, atque unde similique perspiciatis odit.
+            Pantanal Partnership is a University of Michigan student
+            organization, created in 2009, with a focus on education,
+            healthcare, music, and sustainable technology in the Brazilian
+            Pantanal.
           </p>
         </div>
 

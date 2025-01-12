@@ -5,7 +5,7 @@ const AboutUs = () => {
     <>
       <div className="relative w-full h-[40vh] mt-[8vh]">
         <Image
-          src="/Images/heroImage.JPG"
+          src="/Images/aboutUs.JPG"
           layout="fill"
           objectFit="cover"
           alt="Image"
@@ -37,7 +37,7 @@ const AboutUs = () => {
 
           <div className="col-span-1 aspect-video relative shadow-md">
             <Image
-              src="/Images/aboutUsImage.JPG"
+              src="/Images/mission.JPG"
               layout="fill"
               objectFit="cover"
               alt="Image"
@@ -62,7 +62,7 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">John Doe</h2>
+                <h2 className="text-black text-lg font-semibold">Megan Trapp</h2>
                 <h3 className="text-black text-lg font-semibold">President</h3>
               </div>
             </div>
@@ -77,8 +77,8 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">John Doe</h2>
-                <h3 className="text-black text-lg font-semibold">President</h3>
+                <h2 className="text-black text-lg font-semibold">Cole Larance</h2>
+                <h3 className="text-black text-lg font-semibold">Vice President</h3>
               </div>
             </div>
           </div>
@@ -92,8 +92,8 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">John Doe</h2>
-                <h3 className="text-black text-lg font-semibold">President</h3>
+                <h2 className="text-black text-lg font-semibold">Alec Brandel</h2>
+                <h3 className="text-black text-lg font-semibold">Finance Chair</h3>
               </div>
             </div>
           </div>
@@ -107,13 +107,13 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">John Doe</h2>
-                <h3 className="text-black text-lg font-semibold">President</h3>
+                <h2 className="text-black text-lg font-semibold">Emilia Ferme Giralt</h2>
+                <h3 className="text-black text-lg font-semibold">​Marketing Chair</h3>
               </div>
             </div>
           </div>
         </div>
-        <span>NOT SHOWN: john doe &lpar; president &rpar;</span>
+        <span className = "text-sm py-2">Eric Landgraf: Project Manager</span>
       </div>
       <div className="squeezetainer py-[10vh] bg-slate-50">
         <div className="flex flex-col gap-4">
