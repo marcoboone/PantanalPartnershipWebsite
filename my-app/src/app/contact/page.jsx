@@ -21,7 +21,7 @@ return (
                         We would love to hear from you!
                     </h1>
                     <p className="text-white text-sm lg:text-2xl">
-                        Email us at email@umich.edu
+                        Email us at pantanal-partnership@umich.edu
                     </p>
                     <div className="flex gap-6 text-white text-4xl">
                         <Link href = "https://www.linkedin.com/company/pantanal-partnership/">
