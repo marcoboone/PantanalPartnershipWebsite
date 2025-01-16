@@ -122,24 +122,13 @@ const Navbar = () => {
             <NavItem clickFunction={resetNav} href={"/aboutUs"}>
               about us
             </NavItem>
-            <div className="dropdown">
-              <div tabIndex={0} role="button">
-                <div className=" flex gap-2 items-center">
-                  <div className="text-md tracking-wide px-6 hover:opacity-70 transition-all duration-300">
-                    projects
-                  </div>
-                </div>
-              </div>
-              <ul
-                tabIndex={0}
-                className="dropdown-content menu bg-white rounded-box z-[1] w-52 p-2 shadow"
-              >
-                <div className="flex flex-col gap-4 py-4">
-                  <NavItem href={"/currentProjects"}>current projects</NavItem>
-                  <NavItem href={"/pastProjects"}>past projects</NavItem>
-                </div>
-              </ul>
-            </div>
+            <NavItem clickFunction={resetNav} href={"/currentProjects"}>
+              current projects
+            </NavItem>
+            <NavItem clickFunction={resetNav} href={"/pastProjects"}>
+              past projects
+            </NavItem>
+           
             <NavItem clickFunction={resetNav} href={"/donate"}>
               donate
             </NavItem>
