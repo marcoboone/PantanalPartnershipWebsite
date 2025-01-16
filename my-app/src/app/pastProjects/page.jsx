@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="absolute w-full h-[40vh] bg-black/60 backdrop-blur-sm"></div>
         <div className="absolute w-full h-[40vh] squeezetainer flex items-center justify-center">
           <h1 className="text-white text-2xl lg:text-6xl font-semibold">
-            PROJECTS
+            PAST PROJECTS
           </h1>
         </div>
       </div>
