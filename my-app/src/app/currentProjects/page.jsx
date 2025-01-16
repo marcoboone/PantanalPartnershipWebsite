@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ProjectSectionA from "../components/ProjectSectionA";
-import ProjectSectionB from "../components/ProjectSectionB";
+
 
 const Projects = () => {
   return (
