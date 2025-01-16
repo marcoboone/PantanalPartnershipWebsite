@@ -62,7 +62,7 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">Megan Trapp</h2>
+                <h2 className="text-black text-lg font-semibold">Sabrina Van Putten</h2>
                 <h3 className="text-black text-lg font-semibold">President</h3>
               </div>
             </div>
@@ -77,7 +77,7 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">Cole Larance</h2>
+                <h2 className="text-black text-lg font-semibold">Celing Li</h2>
                 <h3 className="text-black text-lg font-semibold">Vice President</h3>
               </div>
             </div>
@@ -92,7 +92,7 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">Alec Brandel</h2>
+                <h2 className="text-black text-lg font-semibold">Cassidy See</h2>
                 <h3 className="text-black text-lg font-semibold">Finance Chair</h3>
               </div>
             </div>
@@ -107,7 +107,7 @@ const AboutUs = () => {
             ></Image>
             <div className="absolute bottom-0 flex items-center m-2">
               <div className="p-4 bg-white bg-opacity-60 rounded-lg">
-                <h2 className="text-black text-lg font-semibold">Emilia Ferme Giralt</h2>
+                <h2 className="text-black text-lg font-semibold">Chloe Durkee</h2>
                 <h3 className="text-black text-lg font-semibold">​Marketing Chair</h3>
               </div>
             </div>
