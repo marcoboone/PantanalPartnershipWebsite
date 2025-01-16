@@ -17,5 +17,8 @@ const config: Config = {
   plugins: [
     daisyui,
   ],
+  daisyui: {
+    themes: false, // Disable DaisyUI themes
+  },
 };
 export default config;

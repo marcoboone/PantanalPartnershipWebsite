@@ -18,7 +18,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="squeezetainer py-[10vh] bg-slate-50">
+      <div className="squeezetainer py-[10vh] bg-slate-50 text-black">
         <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-12">
           <div className="flex flex-col gap-4 col-span-1 justify-center ">
             <span className="text-sm text-blue-500">ONE SENTENCE</span>
@@ -46,7 +46,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="squeezetainer py-[10vh]">
+      <div className="squeezetainer py-[10vh] bg-white text-black">
         <div className="flex flex-col gap-4 py-4">
           <span className="text-sm text-blue-500">OUR VIPS</span>
           <h2 className="text-3xl lg:text-4xl font-semibold">BOARD</h2>
@@ -115,7 +115,7 @@ const AboutUs = () => {
         </div>
         <span className = "text-sm py-2">Eric Landgraf: Project Manager</span>
       </div>
-      <div className="squeezetainer py-[10vh] bg-slate-50">
+      <div className="squeezetainer py-[10vh] bg-slate-50 text-black">
         <div className="flex flex-col gap-4">
           <span className="text-sm text-blue-500">MORE ABOUT US</span>
           <h2 className="text-3xl lg:text-4xl font-semibold">Our Story</h2>

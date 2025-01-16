@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const ProjectSectionA = ({ title, description, team, date, image }) => {
     return (
-        <div className="squeezetainer py-[10vh]">
+        <div className="squeezetainer py-[10vh] bg-white text-black">
             <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-12">
                 <div className="flex flex-col gap-4 col-span-1 justify-center">
                     <span className="text-sm text-blue-500">{team}</span>

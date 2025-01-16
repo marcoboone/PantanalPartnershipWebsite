@@ -4,7 +4,7 @@ import Link from "next/link";
 const AboutUs = () => {
   return (
     <>
-      <div className="relative w-full h-[40vh] mt-[8vh]">
+      <div className="relative w-full h-[40vh] mt-[8vh] ">
         <Image
           src="/Images/donate.JPG"
           layout="fill"
@@ -19,7 +19,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="squeezetainer py-[10vh] bg-slate-50">
+      <div className="squeezetainer py-[10vh] bg-slate-50 text-black">
         <div className = "flex flex-col gap-4 py-4">
         <span className="text-sm text-blue-500">
           WE THANK YOU FOR YOUR SUPPORT

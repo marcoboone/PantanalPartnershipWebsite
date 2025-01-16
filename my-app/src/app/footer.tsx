@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const footer = () => {
   return (
-    <div className="squeezetainer py-[10vh]">
+    <div className="squeezetainer py-[10vh] bg-white">
       <div className="text-black w-full text-sm flex flex-col lg:flex-row sm:gap-8">
         <div className="flex flex-col gap-2 md:col-span-2 basis-2/5">
           <h2 className="font-bold">Pantanal Partnership</h2>

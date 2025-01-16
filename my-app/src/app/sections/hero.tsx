@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <div className="relative w-full h-[100vh]">
+    <div className="relative w-full h-[100vh] ">
       <Image
         src="/Images/hero.JPG"
         layout="fill"
@@ -28,10 +28,10 @@ export const Hero = () => {
               Donate
             </Link>
             <Link
-              href="/projects"
+              href="/CurrentProjects"
               className="underline text-white"
             >
-              Projects
+              Current Projects
             </Link>
           </div>
         </div>

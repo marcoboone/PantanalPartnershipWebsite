@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const About = () => {
   return (
-    <div className="squeezetainer py-[10vh]">
+    <div className="squeezetainer py-[10vh] bg-white text-black">
       <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-12">
         <div className="flex flex-col gap-6 col-span-1 ">
           <div className="flex flex-col gap-2">

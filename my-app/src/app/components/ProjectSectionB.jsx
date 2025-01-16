@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ProjectSectionB = ({ title, description, team, date, image }) => {
   return (
-    <div className="squeezetainer py-[10vh] bg-slate-50">
+    <div className="squeezetainer py-[10vh] bg-slate-50 text-black">
       <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-12">
         <div className="col-span-1 aspect-video relative shadow-md">
           <Image
